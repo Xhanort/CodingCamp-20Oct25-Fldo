@@ -1,0 +1,20 @@
+/* File: css/style.css */
+
+.main-logo {
+  height: 80px;
+  width: 80px;
+  background-color: darkgrey;
+  border-radius: 50%;
+  background-image: url(https://www.logologo.com/logos/abstract-isometric-logo-design-free-logo.jpg); /* (URL Anda) */
+  background-size: cover;
+  background-position: center;
+}
+
+/* HAPUS KODE INI KARENA SUDAH DIURUS BOOTSTRAP:
+  .main-header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+  }
+*/
+
