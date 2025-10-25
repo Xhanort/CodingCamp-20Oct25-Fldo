@@ -10,11 +10,35 @@
   background-position: center;
 }
 
-/* HAPUS KODE INI KARENA SUDAH DIURUS BOOTSTRAP:
-  .main-header {
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-  }
-*/
+/* Lingkaran untuk bagian "Our Headquarter" */
+.headquarter-circle {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #ccc;
+    border-radius: 50%; /* Ini yang membuatnya jadi lingkaran */
+    background-color: #f8f9fa;
+    background-size: cover;
+    background-position: center;
+}
+.carousel-item active {
+  height: 80px;
+  width: 80px;
+  background-position: center;
+}
+.hq-jakarta {
+    /* GANTI URL INI dengan gambar Jakarta Anda */
+    background-image: url('https://i0.wp.com/mytravelation.com/wp-content/uploads/2023/11/Jakarta.jpeg');
+}
+
+.hq-bandung {
+    /* GANTI URL INI dengan gambar Bandung Anda */
+    background-image: url('https://elshinta.com/asset/upload/article/2023/september/8628_ELSHINTADOTCOM_20230925_gesat-2.jpg');
+}
+
+.hq-surabaya {
+    /* GANTI URL INI dengan gambar Surabaya Anda */
+    background-image: url('https://ikbis.ac.id/wp-content/uploads/2021/03/Anda-di-Surabaya-Inilah-Pentingnya-Menggunakan-Konsultan-Pajak-Surabaya.jpg');
+}
+
+
 
